@@ -6,7 +6,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
 public class Main {
-    static ExecutorService executor = Executors.newCachedThreadPool();
+//    static ExecutorService executor = Executors.newCachedThreadPool();
+    static ExecutorService executor = Executors.newFixedThreadPool(10);
     public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i < 1000; i++) {
             createAndStartThread();
