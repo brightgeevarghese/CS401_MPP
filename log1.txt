@@ -1,0 +1,2 @@
+2025-07-09 10:01:23 INFO Application started successfully
+2025-07-09 10:02:24 ERROR Could not connect to db

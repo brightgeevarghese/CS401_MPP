@@ -1,0 +1,2 @@
+2025-07-09 10:01:23 INFO Application started successfully
+2025-07-09 10:03:24 ERROR File is not found
